@@ -1,0 +1,44 @@
+.heading{
+  text-align: center;
+  background-color: #9ECAD6;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.parent{
+  display: flex;
+  
+}
+.leftDiv,.rightDiv{
+  flex: 1;
+  height: 400px;
+  width: 100%;
+  margin: 10px;
+}
+.rightDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.mapContainer{
+  
+  height: 100%;
+  width: 100%;
+  
+}
+body{
+  background-color: #C6EBC5;
+}
+.weatherDiv,.netDiv{
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #ccc;
+  padding: 10px;
+  background-color: #C4D9FF;
+}
+.pathDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
